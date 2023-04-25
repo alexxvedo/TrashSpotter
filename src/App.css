@@ -1,0 +1,103 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  width: 100%;
+  height: 12%;
+  background-color: #32d96c;
+  display: flex;
+  align-items: center;
+
+}
+
+.topbar-menu {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.topbar-title {
+
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.topbar-menu img {
+  width: 40px;
+  height: 40px;
+}
+
+.topbar-title img {
+  width: 90px;
+  height: 90px;
+  margin-right: -20px;
+}
+
+.main {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.boton {
+  width: 60%;
+  height: 20%;
+  background-color: #32d96c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.app-mapa {
+  position: absolute;
+  bottom: 0;
+  height: 38%;
+  width: 90%;
+}
+
+.app-mapa img {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 8px;
+  border: 5vw solid #32d96c;
+}
+
+.foto {
+  width: 80vw;
+  height: 40vh;
+  border-radius: 10px;
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto input {
+  outline: none;
+}
